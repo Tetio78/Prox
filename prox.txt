@@ -1,0 +1,121 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  10664  1692 ?        Ss   08:56   0:05 init [2]  
+root         2  0.0  0.0      0     0 ?        S    08:56   0:00 [kthreadd]
+root         3  0.2  0.0      0     0 ?        S    08:56   0:22 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   08:56   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    08:56   0:00 [kworker/u2:0]
+root         7  0.2  0.0      0     0 ?        S    08:56   0:21 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    08:56   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    08:56   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    08:56   0:04 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   08:56   0:00 [khelper]
+root        12  0.0  0.0      0     0 ?        S    08:56   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   08:56   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S<   08:56   0:00 [perf]
+root        15  0.0  0.0      0     0 ?        S    08:56   0:00 [khungtaskd]
+root        16  0.0  0.0      0     0 ?        S<   08:56   0:00 [writeback]
+root        17  0.0  0.0      0     0 ?        S    08:56   0:07 [kworker/0:1]
+root        18  0.0  0.0      0     0 ?        SN   08:56   0:00 [ksmd]
+root        19  0.0  0.0      0     0 ?        SN   08:56   0:00 [khugepaged]
+root        20  0.0  0.0      0     0 ?        S<   08:56   0:00 [crypto]
+root        21  0.0  0.0      0     0 ?        S<   08:56   0:00 [kintegrityd]
+root        22  0.0  0.0      0     0 ?        S<   08:56   0:00 [bioset]
+root        23  0.0  0.0      0     0 ?        S<   08:56   0:00 [kblockd]
+root        24  0.0  0.0      0     0 ?        S<   08:56   0:00 [devfreq_wq]
+root        25  0.0  0.0      0     0 ?        S    08:56   0:00 [kswapd0]
+root        26  0.0  0.0      0     0 ?        S    08:56   0:00 [fsnotify_mark]
+root        33  0.0  0.0      0     0 ?        S<   08:56   0:00 [kthrotld]
+root        34  0.0  0.0      0     0 ?        S<   08:56   0:00 [ipv6_addrconf]
+root        35  0.0  0.0      0     0 ?        S<   08:56   0:00 [deferwq]
+root        36  0.0  0.0      0     0 ?        S    08:56   0:00 [kworker/u2:1]
+root       142  0.0  0.0      0     0 ?        S<   08:56   0:00 [ata_sff]
+root       144  0.0  0.0      0     0 ?        S    08:56   0:00 [scsi_eh_0]
+root       145  0.0  0.0      0     0 ?        S<   08:56   0:00 [scsi_tmf_0]
+root       146  0.0  0.0      0     0 ?        S    08:56   0:00 [scsi_eh_1]
+root       147  0.0  0.0      0     0 ?        S<   08:56   0:00 [scsi_tmf_1]
+root       161  0.0  0.0      0     0 ?        S<   08:56   0:04 [kworker/0:1H]
+root       268  0.0  0.0      0     0 ?        S<   08:56   0:03 [loop0]
+root       507  0.0  0.0  15788   148 ?        S    08:56   0:00 dbus-launch --exit-with-session gsettings set org.gnome.desktop.screensaver lock-enabled false
+root       508  0.0  0.0  29816  1932 ?        Ss   08:56   0:00 /usr/bin/dbus-daemon --fork --print-pid 4 --print-address 6 --session
+root       512  0.0  0.2  67368  4832 ?        Sl   08:56   0:00 /usr/lib/dconf/dconf-service
+root       700  0.0  0.1  21736  2844 ?        Ss   08:56   0:00 udevd --daemon
+root       866  0.0  0.0      0     0 ?        S<   08:56   0:00 [kpsmoused]
+root       890  0.0  0.1  21732  2608 ?        S    08:56   0:00 udevd --daemon
+root       896  0.0  0.1  21732  2588 ?        S    08:56   0:00 udevd --daemon
+root      2453  0.0  0.1  52788  2700 ?        Sl   08:56   0:00 /usr/sbin/rsyslogd -c5
+102       2505  0.0  0.1  30824  3220 ?        Ss   08:56   0:01 /usr/bin/dbus-daemon --system
+root      2530  0.0  0.4  98760  7952 ?        Ssl  08:56   0:00 /usr/sbin/NetworkManager
+root      2550  0.0  0.3  66720  6256 ?        Sl   08:56   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      2554  0.0  0.2  80864  5196 ?        S    08:56   0:00 /usr/sbin/modem-manager
+root      2556  0.0  0.2   9964  5016 ?        S    08:56   0:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhcp/dhclient-d10d9790-a1a7-4860-bf7a-6ad4db2f2027-eth0.lease -cf /var/run/nm-dhclient-eth0.conf eth0
+root      2585  0.0  0.2  83784  5508 ?        Sl   08:56   0:00 /usr/sbin/gdm3
+root      2601  0.0  0.3 105208  7432 ?        Sl   08:56   0:00 /usr/lib/gdm3/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+root      2608  1.1  2.9 168608 56980 tty7     Ss+  08:56   1:36 /usr/bin/Xorg :0 -br -verbose -novtswitch -auth /var/run/gdm3/auth-for-Debian-gdm-AO0INZ/database -nolisten tcp vt7
+arpwatch  2637  0.2  0.2  25856  4860 ?        S    08:56   0:17 /usr/sbin/arpwatch -u arpwatch -N -p
+daemon    2646  0.0  0.0  16684   152 ?        Ss   08:56   0:00 /usr/sbin/atd
+root      2713  0.0  0.1  20356  2120 ?        Ss   08:56   0:00 /usr/sbin/cron
+root      2801  0.0  0.0  20936  1908 ?        Sl   08:56   0:00 /usr/sbin/pcscd
+root      2841  0.0  0.1  67016  2960 tty1     Ss   08:56   0:00 /bin/login -f     
+root      2842  0.0  0.1  67016  2996 tty2     Ss   08:56   0:00 /bin/login -f     
+root      2843  0.0  0.1  67016  2904 tty3     Ss   08:56   0:00 /bin/login -f     
+root      2844  0.0  0.1  67016  2964 tty4     Ss   08:56   0:00 /bin/login -f     
+root      2845  0.0  0.1  67016  2984 tty5     Ss   08:56   0:00 /bin/login -f     
+root      2846  0.0  0.1  67016  2980 tty6     Ss   08:56   0:00 /bin/login -f     
+root      2848  0.0  0.3 127840  5900 ?        Sl   08:56   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      2950  0.0  0.3  22400  6420 tty3     S+   08:56   0:00 -bash
+root      2951  0.0  0.3  22400  6476 tty5     S+   08:56   0:00 -bash
+root      2952  0.0  0.3  22400  6416 tty1     S+   08:56   0:00 -bash
+root      2953  0.0  0.3  22400  6348 tty4     S+   08:56   0:00 -bash
+root      2954  0.0  0.3  22400  6484 tty2     S+   08:56   0:00 -bash
+root      2955  0.0  0.3  22400  6424 tty6     S+   08:56   0:00 -bash
+root      3049  0.0  0.3 119040  6888 ?        Sl   08:56   0:00 gdm-session-worker [pam/gdm3-autologin]
+root      3052  0.0  0.2  61544  5156 ?        Sl   08:56   0:00 /usr/lib/accountsservice/accounts-daemon
+root      3055  0.0  0.0      0     0 ?        S    08:56   0:00 [kauditd]
+root      3064  0.0  0.8 207900 16808 ?        Ssl  08:56   0:01 x-session-manager
+root      3107  0.0  0.0  24200  1848 ?        S    08:56   0:00 dbus-launch --autolaunch=58e98b770c86191a8d46f054563b19c9 --binary-syntax --close-stderr
+root      3108  0.0  0.1  29816  2168 ?        Ss   08:56   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      3111  0.0  0.2  67340  4596 ?        Sl   08:56   0:00 /usr/lib/dconf/dconf-service
+root      3123  0.0  0.0  12480   332 ?        Ss   08:56   0:01 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+root      3126  0.0  0.0  24200  1644 ?        S    08:56   0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+root      3127  0.0  0.1  30660  2988 ?        Ss   08:56   0:01 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      3132  0.1  1.7 528056 33552 ?        Sl   08:56   0:09 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+root      3143  0.0  0.3 119444  6176 ?        Sl   08:56   0:00 /usr/bin/gnome-keyring-daemon --start --components=gpg
+root      3149  0.0  0.3 100696  6748 ?        Sl   08:56   0:00 /usr/lib/upower/upowerd
+root      3185  0.0  0.2  60440  4916 ?        S    08:56   0:00 /usr/lib/gvfs/gvfsd
+root      3242  0.0  0.3  69364  6228 ?        S    08:56   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+root      3244  0.0  0.2  55864  5452 ?        Sl   08:56   0:00 /usr/lib/udisks/udisks-daemon
+root      3245  0.1  0.0  47424   336 ?        S    08:56   0:10 udisks-daemon: polling /dev/sr0
+root      3248  0.0  0.2  58980  4836 ?        S    08:56   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+root      3250  0.2  0.1  77460  3504 ?        Sl   08:56   0:18 /usr/lib/gvfs/gvfs-afc-volume-monitor
+colord    3254  0.0  0.3  84608  7008 ?        Sl   08:56   0:00 /usr/lib/x86_64-linux-gnu/colord/colord
+root      3257  0.0  0.9 280048 18812 ?        Sl   08:56   0:03 /usr/bin/metacity
+colord    3264  0.0  0.6 249344 13204 ?        Sl   08:56   0:00 /usr/lib/x86_64-linux-gnu/colord/colord-sane
+root      3268  0.0  0.4 167740  8532 ?        Sl   08:56   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+root      3283  0.2  2.5 412708 50160 ?        Sl   08:56   0:17 gnome-panel
+root      3289  0.0  0.2  67344  4852 ?        Sl   08:56   0:00 /usr/lib/dconf/dconf-service
+root      3294  0.0  0.2  52312  5072 ?        S    08:56   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      3295  0.0  1.3 224572 26056 ?        Sl   08:57   0:00 nm-applet
+root      3297  0.0  0.8 173728 15664 ?        Sl   08:57   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+root      3299  0.0  0.9 202288 19384 ?        Sl   08:57   0:02 /usr/lib/tracker/tracker-store
+root      3300  0.0  0.6 156024 13200 ?        RNl  08:57   0:00 /usr/lib/tracker/tracker-miner-fs
+root      3301  0.0  1.0 189564 20640 ?        Sl   08:57   0:00 bluetooth-applet
+root      3303  0.0  0.8 200596 15724 ?        Sl   08:57   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+root      3304  0.0  1.3 199760 25608 ?        Sl   08:57   0:02 gnome-screensaver
+root      3308  0.0  1.8 455420 35464 ?        Sl   08:57   0:04 nautilus -n
+root      3315  0.0  0.5 237652  9784 ?        S<l  08:57   0:06 /usr/bin/pulseaudio --start
+root      3316  0.0  0.8 189576 15768 ?        S    08:57   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+root      3317  0.0  1.2 280664 23556 ?        Sl   08:57   0:00 gnome-sound-applet
+root      3318  0.0  0.8 177844 16116 ?        Sl   08:57   0:00 /usr/lib/notification-daemon/notification-daemon
+root      3349  0.0  0.3  64920  5820 ?        S    08:57   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+root      3351  0.0  0.2  60416  5224 ?        S    08:57   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+root      3357  0.0  0.5 114584  9840 ?        Sl   08:57   0:00 /usr/lib/telepathy/mission-control-5
+root      3361  0.0  1.0 289768 20700 ?        Sl   08:57   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+root      3409  0.4  1.3 227604 26668 ?        Sl   09:09   0:34 gnome-terminal
+root      3416  0.0  0.0  14564  1732 ?        S    09:09   0:00 gnome-pty-helper
+root      3417  0.0  0.2  19644  4852 pts/0    Ss   09:09   0:00 bash
+root      3447  0.0  0.2  19644  4856 pts/1    Ss+  09:27   0:00 bash
+root      3455  3.2 10.3 859132 200192 ?       Sl   09:28   3:20 iceweasel
+root      3469  0.0  0.2  79192  5584 ?        Sl   09:28   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+root      3535  0.0  0.2  55956  5556 ?        S    09:30   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      3808  0.0  0.0      0     0 ?        S    10:16   0:00 [kworker/0:0]
+root      6580  0.0  0.0  15320  1916 pts/0    R+   11:13   0:00 ps aux
